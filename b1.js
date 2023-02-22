@@ -19,15 +19,15 @@ cancel.addEventListener('click', function () {
     modal.classList.remove('show')
 })
 
-comfirmBtn.addEventListener('click', function () {
-    todoList.splice(0, 1);
-    if (todoList.length < 1) {
-        todo.innerHTML = "";
-    }
-    else {
-        todo.innerHTML = todoList[0];
-    }
+// comfirmBtn.addEventListener('click', function () {
+//     todoList.splice(0, 1);
+//     if (todoList.length < 1) {
+//         todo.innerHTML = "";
+//     }
+//     else {
+//         todo.innerHTML = todoList[0];
+//     }
 
-    modal.classList.remove('show')
+//     modal.classList.remove('show')
 
 })
